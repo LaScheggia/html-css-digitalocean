@@ -1,5 +1,9 @@
 .debug [class*="col-"] {
   background-color: rgba(248,187,208, 0.3);
   border: 1px solid rgba(240,98,146 ,1);
-  height: fit-content;
+}
+
+ul li{
+  list-style: none;
+  margin-left: -40px;
 }
