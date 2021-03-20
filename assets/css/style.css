@@ -22,9 +22,19 @@ a:hover{
   text-decoration: none;
 }
 
+.sr-padding-80{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sr-white-txt{
+  color: white;
+  font-weight: bold;
+}
+
 /* navbar */
 .logo{
-  background-color: rgba(239,154,154 ,1);
+  background-color: white;
   height: 50px;
   line-height: 50px;
   vertical-align: middle;
@@ -59,10 +69,16 @@ a:hover{
   color: aqua;
 }
 
-
+/* MAIN */
 /* jumbotron */
 .sr-jumbo{
-  background-color: rgba(244,143,177 ,1);
+  background-image: url(../img/bg-banner-home.jpg);
+  width: 100%;
+  height: 100%;
+  background-color: rgb(12, 50, 90);
+  background-size: 1750px;
+  background-repeat: no-repeat;
+  background-position: 45% 100%;
 }
 
 .sr-bg-fo{
@@ -72,7 +88,7 @@ a:hover{
 
 /* partners */
 .sr-partners{
-  background-color: rgba(179,157,219 ,1);
+  background-color: rgba(189,189,189 ,1);
 }
 
 .sr-partners img{
@@ -81,7 +97,6 @@ a:hover{
 }
 
 /* deploy */
-
 .sr-deploy{
   background-color: rgba(159,168,218 ,1);
 }
@@ -109,12 +124,26 @@ a:hover{
 
 /* footer */
 .footer-top{
-  background-color: rgba(165,214,167 ,1);
+  line-height: 60px;  
+  vertical-align: middle;
+  background-color: rgb(0, 65, 187);
+  background-image: linear-gradient(rgb(0, 65, 187), rgb(0, 32, 155));
 }
 
 .footer-bottom{
-  background-color: rgba(197,225,165 ,1);
+  background-color: rgb(3, 28, 78);
 }
+
 footer ul li{
   margin-left: -40px;
+  color: rgb(97, 110, 139);
+}
+
+.socials li{
+  margin: 0;
+  display: inline;
+}
+
+footer ul li h6{
+  color: white;
 }
