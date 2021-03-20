@@ -3,7 +3,118 @@
   border: 1px solid rgba(240,98,146 ,1);
 }
 
+/* general */
 ul li{
   list-style: none;
+  padding-right: 15px;
+}
+
+ul li a:hover{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+/* navbar */
+.logo{
+  background-color: rgba(239,154,154 ,1);
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.logo img{
+  height: 30px;
+  width: 150px;
+}
+
+.logo ul li{
+  display: inline;
+}
+
+.logo ul li a{
+  color: black;
+  font-weight: bold;
+}
+
+.glyphicon-menu-down{
+  font-size: 12px;
+}
+
+.btn-custom{
+  padding: 3px 6px;
+  background-color: white;
+  color: aqua;
+  border: 1px solid aqua;
+}
+
+.btn-custom a{
+  color: aqua;
+}
+
+
+/* jumbotron */
+.sr-jumbo{
+  background-color: rgba(244,143,177 ,1);
+}
+
+.sr-bg-fo{
+  background-color: rgba(206,147,216 ,1);
+  height: 250px;
+}
+
+/* partners */
+.sr-partners{
+  background-color: rgba(179,157,219 ,1);
+}
+
+.sr-partners img{
+  width: 100px;
+  height: 100px;
+}
+
+/* deploy */
+
+.sr-deploy{
+  background-color: rgba(159,168,218 ,1);
+}
+
+.sr-deploy ul li{
+  margin-left: -40px;
+}
+
+.sr-designed{
+  background-color: rgba(144,202,249 ,1);
+}
+
+.sr-features{
+  background-color: rgba(129,212,250 ,1);
+}
+
+/* service */
+.sr-service{
+  background-color: rgba(128,222,234 ,1);
+}
+
+.sr-development{
+  background-color: rgba(128,203,196 ,1);
+}
+
+/* footer */
+.footer-top{
+  background-color: rgba(165,214,167 ,1);
+}
+
+.footer-bottom{
+  background-color: rgba(197,225,165 ,1);
+}
+footer ul li{
   margin-left: -40px;
 }

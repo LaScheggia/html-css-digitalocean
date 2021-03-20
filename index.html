@@ -13,68 +13,110 @@
 <body>
 
   <header>
-    <section> <!-- navbar -->
+    <section class="logo"> <!-- navbar -->
       <div class="container debug">
         <div class="row">
           <div class="col-xs-6 col-lg-3"> 
-            logo
+            <img class="logo" src="assets/img/logo.png" alt="">
           </div>
-          <div class="col-lg-4 visible-lg text-center">
-            products/customers/comm/pricing
+          <div class="col-lg-5 visible-lg text-center">
+            <ul>
+              <li>
+                <a href="#">Products</a>
+                <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+              </li>
+              <li>
+                <a href="#">Customers</a>
+              </li>
+              <li>
+                <a href="#">Community</a>
+                <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+            </ul>
           </div>
-          <div class="col-lg-5 visible-lg text-right">
-            docs/support/login/signup
+          <div class="col-lg-4 visible-lg text-right">
+            <ul>
+              <li>
+                <a href="#">Docs</a>
+              </li>
+              <li>
+                <a href="#">Support</a>
+                <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+              </li>
+              <li>
+                <a href="#">Login</a>
+              </li>
+              <li>
+                <a class="btn btn-custom" href="#" role="button">Login</a>
+              </li>
+            </ul>
           </div>
           <div class="col-xs-6 visible-xs visible-sm visible-md text-right">
             <button type="button" class="btn btn-default" aria-label="Left Align">
-              <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
             </button>
           </div> 
         </div>
+
       </div>
     </section>
   </header>
 
   <main>
-    <section class="jumbo"> <!-- jumbotron -->
+    <section class="sr-jumbo"> <!-- jumbotron -->
       <div class="container debug">
         <div class="row">
-          <div class="col-xs-12 col-sm-8"> <!-- text -->
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi itaque voluptatibus, repudiandae officiis sit rerum.
+          <div class="col-xs-12 col-sm-7"> <!-- text -->
+            <h1>
+              The simplest cloud platform for developers & teams
+            </h1>
+            <p>
+              Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructures easy for teams and businesses, wheter you're running one virtual machine or ten thousand.
+            </p>
           </div>
-          <div class="col-xs-12 col-sm-4"> <!-- form -->
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates placeat minima ratione, quisquam quaerat quibusdam.
+          <div class="col-xs-12 col-sm-5"> <!-- form -->
+            <div class="sr-bg-fo">
+              <h4>
+                Deploy your app in seconds.
+              </h4>
+              <h4>
+                Get started now.
+              </h4>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="partners"> <!-- partners -->
+    <section class="sr-partners"> <!-- partners -->
       <div class="container debug">
-        <div class="row">
-          <div class="col-xs-12">
-            innovative buzinez
+        <div class="row text-center no-gutters">
+          <div class="col-xs-12 text-uppercase">
+            <h6>innovative businesses trust digitalocean</h6>
           </div>
           <div class="col-xs-6 col-sm-2"> <!-- docker-git  -->
-            logo1
+            <img src="assets/img/docker.svg" alt="docker">
           </div>
           <div class="col-xs-6 col-sm-2"> <!-- slack-wework -->
-            logo2 
+            <img src="assets/img/gitlab.svg" alt="gitlab"> 
           </div>
           <div class="col-xs-6 col-sm-2"> <!-- hashi2-splunk -->
-            logo3
+            <img src="assets/img/slack.svg" alt="slack">
           </div>
           <div class="col-xs-6 col-sm-2"> <!-- docker-git  -->
-            logo4 
+            <img src="assets/img/hashicorp.svg" alt="hashi">
           </div>
           <div class="col-xs-6 col-sm-2"> <!-- slack-wework -->
-            logo5 
+            <img src="assets/img/wework.svg" alt="wework">
           </div>
           <div class="col-xs-6 col-sm-2"> <!-- hashi2-splunk -->
-            logo6
+            <img src="assets/img/splunk.svg" alt="splunk">
           </div>
           <div class="col-xs-12">
-            link stories
+            <a href="#">View customer stories ></a>
           </div>
 
         </div>
@@ -83,64 +125,64 @@
     </section>
 
     <section> <!-- deploy - designed -features -->
-      <div class="deploy"> <!-- deploy -->
+      <div class="sr-deploy"> <!-- deploy -->
         <div class="container debug">
-          <div class="row">
-            <div class="col-xs-12"> <!-- deploy -->
-              <h1>Deploy</h1>
+          <div class="row"> 
+            <div class="col-xs-12 text-center"> <!-- deploy -->
+              <h1>Deploy and scale seanlessly</h1>
               <p>
                 Our optimized configuration process saves your team time when running and scaling distributed application, AI machine learning workloads, hosted service, client websites, or CI/CD evironment.
               </p>
-          </div>
-          <div class="col-sm-4"> <!-- lista -->
-            <ul>
-              <li>Deploy</li>
-              <li>Manage</li>
-              <li>Scale</li>
-              <li>Monitor</li>
-            </ul>
-          </div>
-          <div class="col-sm-8"> <!-- cosa fa -->
-            <div class="row">
-              <div class="col-sm-6"> <!-- cluster -->
-                <h6>Cluster deployments</h6>
-                <p>
-                  Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.
-                </p>
+            </div>
+            <div class="col-sm-4"> <!-- lista -->
+              <ul>
+                <li>Deploy</li>
+                <li>Manage</li>
+                <li>Scale</li>
+                <li>Monitor</li>
+              </ul>
+            </div>
+            <div class="col-sm-8"> <!-- cosa fa -->
+              <div class="row">
+                <div class="col-sm-6"> <!-- cluster -->
+                  <h5>Cluster deployments</h5>
+                  <p>
+                    Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.
+                  </p>
+                </div>
+                <div class="col-sm-6"> <!-- optimized -->
+                  <h5>
+                    Optimized Compute types
+                  </h5>
+                  <p>
+                    Get the compute resources you need with Standard or Optimized Droplets.
+                  </p>
+                </div>
               </div>
-              <div class="col-sm-6"> <!-- optimized -->
-                <h6>
-                  Optimized Compute types
-                </h6>
-                <p>
-                  Get the compute resources you need with Standard or Optimized Droplets.
-                </p>
+              <div class="row">
+                <div class="col-sm-6"> <!-- one click -->
+                  <h5>
+                    One-click apps
+                  </h5>
+                  <p>
+                    Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.
+                  </p>
+                </div>
+                <div class="col-sm-6"> <!-- global -->
+                  <h5>
+                    Global availability
+                  </h5>
+                  <p>
+                    Deploy to any of our data center regions around the world.
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-6"> <!-- one click -->
-                <h6>
-                  One-click apps
-                </h6>
-                <p>
-                  Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.
-                </p>
-              </div>
-              <div class="col-sm-6"> <!-- global -->
-                <h6>
-                  Global availability
-                </h6>
-                <p>
-                  Deploy to any of our data center regions around the world.
-                </p>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
 
-      <div class="designed"> <!-- designed -->
+      <div class="sr-designed"> <!-- designed -->
         <div class="container debug">
           <div class="row">
             <div class="col-xs-12 text-center"> <!-- designed -->
@@ -162,7 +204,7 @@
         </div>
       </div>
 
-      <div class="features"> <!-- features -->
+      <div class="sr-features"> <!-- features -->
         <div class="container debug">
           <div class="row">
             <div class="col-xs-12"> <!-- features -->
@@ -199,7 +241,7 @@
     </section>
 
     <section> <!-- service development -->
-      <div class="service"> <!-- service -->
+      <div class="sr-service"> <!-- service -->
         <div class="container debug">
           <div class="row">
             <div class="col-xs-12 text-center">
@@ -215,7 +257,7 @@
         </div>
         </div>
 
-      <div class="development"> <!-- development -->
+      <div class="sr-development"> <!-- development -->
         <div class="container debug">
           <div class="row">
             <div class="col-xs-12">
