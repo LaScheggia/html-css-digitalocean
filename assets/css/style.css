@@ -28,6 +28,7 @@ a{
 
 a:hover{
   text-decoration: none;
+  color: rgb(26, 121, 255);
 }
 
 .sr-padding-80{
@@ -78,11 +79,11 @@ a:hover{
   font-size: 12px;
 }
 
-.sr-btn-custom{
+.btn.sr-btn-custom{
   padding: 3px 6px;
   background-color: white;
-  color: aqua;
-  border: 1px solid aqua;
+  color: rgb(26, 122, 255);
+  border: 1px solid rgb(26, 122, 255);
 }
 
 .sr-btn-lg{
@@ -127,9 +128,13 @@ a:hover{
   box-shadow: 2px 2px 4px rgb(228, 228, 228);
 }
 
+#sr-terms {
+  text-decoration: underline;
+}
+
 /* PARTNERS */
 .sr-partners{
-  background-color: rgba(189,189,189 ,1);
+  background-color: rgb(243, 245, 249);
 }
 
 .sr-partners img{
@@ -159,12 +164,12 @@ a:hover{
 }
 
 .sr-designed img{
-  width: 450px;
+  width: 350px;
 }
 
 .sr-designed .sr-arrow{
-  line-height: 294px;
-  height: 294px;
+  line-height: 229px;
+  height: 229px;
   vertical-align: middle;
 }
 
@@ -196,6 +201,12 @@ a:hover{
   border-bottom: 1px solid white;
   padding: 15px 0;
 }
+
+.sr-trasp-underline{
+  border-bottom: 1px solid transparent;
+  padding: 15px 0;
+}
+
 
 .sr-service a{
   color: aquamarine;
