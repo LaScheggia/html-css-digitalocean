@@ -52,7 +52,7 @@
                 <a href="#">Login</a>
               </li>
               <li>
-                <a class="btn btn-custom" href="#" role="button">Sign Up</a>
+                <a class="btn sr-btn-custom" href="#" role="button">Sign Up</a>
               </li>
             </ul>
           </div>
@@ -80,13 +80,29 @@
             </p>
           </div>
           <div class="col-xs-12 col-sm-5"> <!-- form -->
-            <div class="sr-bg-fo">
+            <div class="sr-bg-fo text-center">
               <h4>
                 Deploy your app in seconds.
               </h4>
-              <h4>
-                Get started now.
-              </h4>
+              <h5>
+                <span class="sr-blue-txt">Get started now.</span>
+              </h5>
+              <div> <!-- box x i form -->
+                <form>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+              </div>
+              <div> <!-- box x i btn -->
+                <button type="button" class="btn sr-btn-lg sr-btn-blu">Create your account</button>
+                <button type="button" class="btn sr-btn-lg sr-btn-white"> Sign up with Google </button>
+              </div>
+              <div>
+                <p>By signing up you agree to the <a href="#">Terms of service</a>.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -217,8 +233,8 @@
                 Create computer servers in 55 seconds or less
               </p>
               <div class="sr-dot-box"> <!-- pallini carousel -->
-                <div class="sr-dot-full"> <!-- pallino pieno -->
-                  <i class="fas fa-circle"></i>
+                <div class="sr-dot-empty"> <!-- pallino pieno -->
+                  <i class="far fa-circle active"></i>
                 </div>
                 <div class="sr-dot-empty"> <!-- pallino vuoto -->
                   <i class="far fa-circle"></i>
@@ -450,9 +466,10 @@
             <h2 class="sr-white-txt vertical-align-middle">
               Get started now
             </h2>
-            <p>
-              create your account
-            </p>
+            <div>
+              <button type="button" class="btn sr-btn sr-btn-inverted">Create your account</button>
+            </div>
+
           </div>
         </div>
       </div>

@@ -48,6 +48,10 @@ a:hover{
   color: rgb(171, 184, 223);
 }
 
+.sr-blue-txt{
+  color: rgb(0, 106, 255);
+}
+
 /* NAVBAR */
 .logo{
   background-color: white;
@@ -74,19 +78,19 @@ a:hover{
   font-size: 12px;
 }
 
-.btn-custom{
+.sr-btn-custom{
   padding: 3px 6px;
   background-color: white;
   color: aqua;
   border: 1px solid aqua;
 }
 
-.btn-custom a{
-  color: aqua;
+.sr-btn-lg{
+  width: 90%;
+  margin: 10px 5%;
 }
 
 /* MAIN */
-
 /* JUMBOTRON */
 .sr-jumbo{
   background-image: url(../img/bg-banner-home.jpg);
@@ -96,11 +100,31 @@ a:hover{
   background-size: 1920px;
   background-repeat: no-repeat;
   background-position: 45% 100%;
+  padding-bottom: 35px;
 }
 
 .sr-bg-fo{
-  background-color: rgba(206,147,216 ,1);
-  height: 250px;
+  background-color: rgb(255, 255, 255);
+  height: 340px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 15px 0;
+  overflow: hidden;
+}
+
+.form-control{
+  width: 90%;
+  margin: 0 5%;
+}
+
+.sr-btn-blu{
+  background-color: rgb(87, 154, 255);
+  color: white;
+}
+
+.sr-btn-white{
+  background-color: white;
+  box-shadow: 2px 2px 4px rgb(228, 228, 228);
 }
 
 /* PARTNERS */
@@ -146,8 +170,8 @@ a:hover{
 
 [class*="sr-dot-"]{
   display: inline;
-  color: rgb(0, 106, 255);
   font-size: 12px;
+  color: rgb(0, 106, 255);
 }
 
 /* FEATURES */
@@ -189,6 +213,10 @@ a:hover{
   vertical-align: middle;
   background-color: rgb(0, 65, 187);
   background-image: linear-gradient(rgb(0, 65, 187), rgb(0, 32, 155));
+}
+
+.sr-btn-inverted{
+  color: rgb(6, 111, 255);
 }
 
 /* FOOTER BOTTOM */
