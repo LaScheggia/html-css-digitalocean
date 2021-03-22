@@ -2,8 +2,15 @@
   background-color: rgba(248,187,208, 0.3);
   border: 1px solid rgba(240,98,146 ,1);
 }
+/* COMMONS AND GENERAL */
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
-/* general */
+h3 {
+  font-weight: bold;
+}
+
 ul li{
   list-style: none;
   padding-right: 15px;
@@ -15,7 +22,6 @@ ul li a:hover{
 
 a{
   text-decoration: none;
-  font-weight: bold;
 }
 
 a:hover{
@@ -27,12 +33,21 @@ a:hover{
   margin: 0 auto;
 }
 
+.sr-padding-60{
+  width: 60%;
+  margin: 0 auto;
+}
+
 .sr-white-txt{
   color: white;
   font-weight: bold;
 }
 
-/* navbar */
+.sr-aqua-txt{
+  color: aquamarine;
+}
+
+/* NAVBAR */
 .logo{
   background-color: white;
   height: 50px;
@@ -70,7 +85,8 @@ a:hover{
 }
 
 /* MAIN */
-/* jumbotron */
+
+/* JUMBOTRON */
 .sr-jumbo{
   background-image: url(../img/bg-banner-home.jpg);
   width: 100%;
@@ -86,7 +102,7 @@ a:hover{
   height: 250px;
 }
 
-/* partners */
+/* PARTNERS */
 .sr-partners{
   background-color: rgba(189,189,189 ,1);
 }
@@ -96,7 +112,7 @@ a:hover{
   height: 100px;
 }
 
-/* deploy */
+/* DEPLOY */
 .sr-deploy{
   background-color: rgba(159,168,218 ,1);
 }
@@ -105,15 +121,32 @@ a:hover{
   margin-left: -40px;
 }
 
+/* DESIGNED */
 .sr-designed{
   background-color: rgba(144,202,249 ,1);
 }
 
+.sr-designed img{
+  width: 450px;
+}
+
+.sr-designed .sr-arrow{
+  line-height: 294px;
+  height: 294px;
+  vertical-align: middle;
+}
+
+/* FEATURES */
 .sr-features{
   background-color: rgba(129,212,250 ,1);
 }
 
-/* service */
+.sr-features img{
+  height: 40px;
+  width: 40px;
+}
+
+/* SERVICE */
 .sr-service{
   background-color: rgb(0, 65, 187);
   background-image: linear-gradient(rgb(0, 65, 187), rgb(0, 32, 155));;
@@ -127,7 +160,8 @@ a:hover{
   background-color: rgba(128,203,196 ,1);
 }
 
-/* footer */
+/* FOOTER */
+/* FOOTER TOP */
 .footer-top{
   line-height: 60px;  
   vertical-align: middle;
@@ -135,6 +169,7 @@ a:hover{
   background-image: linear-gradient(rgb(0, 65, 187), rgb(0, 32, 155));
 }
 
+/* FOOTER BOTTOM */
 .footer-bottom{
   background-color: rgb(3, 28, 78);
 }
