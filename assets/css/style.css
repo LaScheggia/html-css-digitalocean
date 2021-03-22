@@ -2,6 +2,7 @@
   background-color: rgba(248,187,208, 0.3);
   border: 1px solid rgba(240,98,146 ,1);
 }
+
 /* COMMONS AND GENERAL */
 body{
   font-family: 'Roboto', sans-serif;
@@ -40,11 +41,10 @@ a:hover{
 
 .sr-white-txt{
   color: white;
-  font-weight: bold;
 }
 
-.sr-aqua-txt{
-  color: aquamarine;
+.sr-grey-txt{
+  color: rgb(171, 184, 223);
 }
 
 /* NAVBAR */
@@ -118,7 +118,13 @@ a:hover{
 }
 
 .sr-deploy ul li{
-  margin-left: -40px;
+  margin-left: -35px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.sr-list-box{
+  border-left: 2px solid rgb(208, 208, 208);
 }
 
 /* DESIGNED */
@@ -148,14 +154,22 @@ a:hover{
 
 /* SERVICE */
 .sr-service{
+  padding-top: 30px;
+  padding-bottom: 60px;
   background-color: rgb(0, 65, 187);
   background-image: linear-gradient(rgb(0, 65, 187), rgb(0, 32, 155));;
 }
 
 .sr-white-underline{
   border-bottom: 1px solid white;
+  padding: 15px 0;
 }
 
+.sr-service a{
+  color: aquamarine;
+}
+
+/* DEVELOPMENT */
 .sr-development{
   background-color: rgba(128,203,196 ,1);
 }
