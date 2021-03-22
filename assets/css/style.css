@@ -125,6 +125,7 @@ a:hover{
 }
 
 .sr-list-box{
+  height: auto;
   border-left: 2px solid rgb(208, 208, 208);
 }
 
