@@ -204,6 +204,7 @@ a:hover{
 /* PARTNERS */
 .sr-partners{
   background-color: rgb(243, 245, 249);
+  padding-bottom: 10px;
 }
 
 .sr-partners ul li{
@@ -220,23 +221,16 @@ a:hover{
   .sr-partners ul li{
     width: calc(80% / 2);
   }
-
-  .sr-bg-fo h3{
-    font-weight: bold;
-    font-size: 1.8em;
-  }
-
-  .sr-bg-fo h4{
-    font-weight: bold;
-    font-size: 1.5em;
-  }
-
 }
 
 
 /* DEPLOY */
 .sr-deploy{
   padding-bottom: 20px
+}
+
+.sr-deploy p {
+  padding-bottom: 20px;
 }
 
 .sr-deploy ul li{
@@ -275,7 +269,7 @@ a:hover{
 }
 
 .sr-designed img{
-  width: 450px;
+  width: 350px;
 }
 
 .sr-captation{
@@ -339,6 +333,12 @@ a:hover{
 
 .sr-bg-rocker img{
   padding-bottom: 20px;
+}
+
+.sr-rick{
+  padding-top: 10px;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 /* FOOTER */
