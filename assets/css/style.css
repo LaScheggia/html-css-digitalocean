@@ -158,6 +158,10 @@ a:hover{
 .sr-btn-white{
   background-color: white;
   box-shadow: 2px 2px 4px rgb(228, 228, 228);
+  background-image: url(../img/google-icon.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 1% 87%;
 }
 
 .sr-btn-white img{
@@ -172,6 +176,20 @@ a:hover{
 #sr-terms {
   font-size: 0.9em;
   text-decoration: underline;
+}
+
+/* jubmo media queries */
+@media screen and (max-width: 1200px){
+  .sr-jumbo h1{
+    font-size: 3em;
+    line-height: 1em;
+  }
+
+  .sr-jumbo-txt p{
+    color: rgb(158, 185, 255);
+    font-size: 1.2em;
+    line-height: 1em;
+  }
 }
 
 /* PARTNERS */
@@ -300,6 +318,7 @@ a:hover{
 /* FOOTER BOTTOM */
 .footer-bottom{
   background-color: rgb(3, 28, 78);
+  padding-bottom: 50px;
 }
 
 footer ul{
@@ -317,4 +336,82 @@ footer ul li{
 
 footer ul li h6{
   color: white;
+}
+
+footer .sr-shark {
+  position: fixed;
+  z-index: 998;
+  bottom: 20px;
+  width: 100%;
+  background-color: transparent;
+  margin-left: 0;
+}
+
+footer .sr-shark .sr-shark-img {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #006AFF;
+  background-image: url(../img/shark.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+}
+
+footer .sr-shark .sr-shark-img .sr-shark-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 22px;
+  height: 22px;
+  background-color: #FF0000;
+  border-radius: 50%;
+  border: 3px solid #FFF;
+}
+
+footer .sr-shark .sr-shark-img .sr-shark-badge p {
+  color: #FFF;
+  margin: -2px;
+  padding: 0;
+}
+
+footer .sr-shark .sr-shark-text {
+  position: relative;
+  max-width: 250px;
+  height: 60px;
+  background-color: #FFF;
+  padding: 10px;
+  border-radius: 5px;
+  color: #041D4D;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+footer .sr-shark .sr-shark-text .sr-square {
+  position: absolute;
+  right: -7px;
+  bottom: 9px;
+  width: 14px;
+  height: 14px;
+  background-color: #FFF;
+  transform: rotate(45deg);
+}
+
+@media all and (max-width: 991px) {
+  footer .sr-shark .sr-shark-img,
+  footer .sr-shark .sr-shark-text {
+    float: left!important;
+  }
+
+  footer .sr-shark .sr-shark-text .sr-square {
+    position: absolute;
+    left: -7px;
+    bottom: 9px;
+    width: 14px;
+    height: 14px;
+    background-color: #FFF;
+    transform: rotate(45deg);
+  }
+
 }
