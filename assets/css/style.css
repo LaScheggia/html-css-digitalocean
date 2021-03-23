@@ -54,7 +54,6 @@ a:hover{
 }
 
 /* NAVBAR */
-
 .logo{
   background-color: white;
   height: 50px;
@@ -62,11 +61,13 @@ a:hover{
   vertical-align: middle;
   position: fixed;
   z-index: 9999;
+  width: 100%;
 }
 
 .logo img{
   height: 30px;
   width: 150px;
+  margin-top: 10px;
 }
 
 .logo ul li{
@@ -92,6 +93,7 @@ a:hover{
 .sr-btn-lg{
   width: 90%;
   margin: 10px 5%;
+  font-weight: bold;
 }
 
 /* MAIN */
@@ -108,13 +110,39 @@ a:hover{
   padding-top: 100px;
 }
 
+.sr-jumbo-txt{
+  padding-right: 50px;
+}
+
+.sr-jumbo h1{
+  font-size: 4.5em;
+  line-height: 1.1em;
+}
+
+.sr-jumbo-txt p{
+  color: rgb(158, 185, 255);
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
 .sr-bg-fo{
   background-color: rgb(255, 255, 255);
-  height: 340px;
+  height: 350px;
   margin-bottom: 15px;
   border-radius: 5px;
   padding: 15px 0;
   overflow: hidden;
+  font-weight: bold;
+}
+
+.sr-bg-fo h3{
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.sr-bg-fo h4{
+  font-weight: bold;
+  font-size: 2em;
 }
 
 .form-control{
@@ -134,9 +162,15 @@ a:hover{
 
 .sr-btn-white img{
   width: 15px;
+  margin
+}
+
+.sr-policy{
+  font-size: 0.9em;
 }
 
 #sr-terms {
+  font-size: 0.9em;
   text-decoration: underline;
 }
 
@@ -171,14 +205,30 @@ a:hover{
   background-color: rgba(144,202,249 ,1);
 }
 
+.sr-my-box{
+  position: relative;
+}
+
+.sr-arr-left{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%);
+}
+
+.sr-arr-right{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%);
+}
+
 .sr-designed img{
   width: 450px;
 }
 
-.sr-designed .sr-arrow{
-  line-height: 229px;
-  height: 229px;
-  vertical-align: middle;
+.sr-captation{
+  margin-top: 10px;
 }
 
 [class*="sr-dot"]{
@@ -221,7 +271,6 @@ a:hover{
   margin: 0 2px;
 }
 
-
 .sr-service a{
   color: aquamarine;
 }
@@ -229,6 +278,10 @@ a:hover{
 /* DEVELOPMENT */
 .sr-development{
   background-color: rgba(128,203,196 ,1);
+}
+
+.sr-bg-rocker{
+  background-color: white;
 }
 
 /* FOOTER */
