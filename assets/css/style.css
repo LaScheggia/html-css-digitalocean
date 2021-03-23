@@ -174,10 +174,14 @@ a:hover{
   vertical-align: middle;
 }
 
-[class*="sr-dot-"]{
+[class*="sr-dot"]{
   display: inline;
   font-size: 12px;
   color: rgb(0, 106, 255);
+}
+
+.sr-dot.active :active{
+  font-weight: 900;
 }
 
 /* FEATURES */
