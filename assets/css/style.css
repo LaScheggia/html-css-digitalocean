@@ -83,6 +83,11 @@ a:hover{
   font-size: 12px;
 }
 
+.glyphicon-menu-hamburger{
+  color: rgb(0, 106, 255);
+  background-color: white;
+}
+
 .btn.sr-btn-custom{
   padding: 3px 6px;
   background-color: white;
@@ -152,6 +157,10 @@ a:hover{
 
 .sr-btn-blu{
   background-color: rgb(87, 154, 255);
+  color: white;
+}
+
+.sr-btn-blu:hover{
   color: white;
 }
 
@@ -351,7 +360,7 @@ footer .sr-shark .sr-shark-img {
   position: relative;
   width: 60px;
   height: 60px;
-  background-color: #006AFF;
+  background-color: rgb(0, 106, 255);
   background-image: url(../img/shark.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -365,9 +374,9 @@ footer .sr-shark .sr-shark-img .sr-shark-badge {
   right: -5px;
   width: 22px;
   height: 22px;
-  background-color: #FF0000;
+  background-color: red;
   border-radius: 50%;
-  border: 3px solid #FFF;
+  border: 3px solid white;
 }
 
 footer .sr-shark .sr-shark-img .sr-shark-badge p {
@@ -380,7 +389,7 @@ footer .sr-shark .sr-shark-text {
   position: relative;
   max-width: 250px;
   height: 60px;
-  background-color: #FFF;
+  background-color: white;
   padding: 10px;
   border-radius: 5px;
   color: #041D4D;
@@ -394,7 +403,7 @@ footer .sr-shark .sr-shark-text .sr-square {
   bottom: 9px;
   width: 14px;
   height: 14px;
-  background-color: #FFF;
+  background-color: white;
   transform: rotate(45deg);
 }
 
@@ -410,7 +419,7 @@ footer .sr-shark .sr-shark-text .sr-square {
     bottom: 9px;
     width: 14px;
     height: 14px;
-    background-color: #FFF;
+    background-color: white;
     transform: rotate(45deg);
   }
 
